@@ -8,7 +8,7 @@ tasks:
   - name: Install playwright
     init: |
       npm install -g npm@9.4.0
-      npx playwright install-deps
+      npx --yes playwright install-deps
       gp sync-done playwright-installation
 
   - name: Install robotframework with browser
