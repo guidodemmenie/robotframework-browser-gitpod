@@ -6,12 +6,13 @@
 
 tasks:
   - name: Install playwright
-  - init: |
+    init: |
       npm install -g npm@9.4.0
       npx playwright install-deps
       gp sync-done playwright-installation
 
-  - init: |
+  - name: Install robotframework with browser
+    init: |
     gp sync-await playwright-installation    
     pip install -r requirements.txt
     rfbrowser init
