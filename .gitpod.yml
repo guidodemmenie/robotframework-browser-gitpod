@@ -13,9 +13,9 @@ tasks:
 
   - name: Install robotframework with browser
     init: |
-    gp sync-await playwright-installation    
-    pip install -r requirements.txt
-    rfbrowser init
+      gp sync-await playwright-installation    
+      pip install -r requirements.txt
+      rfbrowser init
 
 vscode:
   extensions:
