@@ -6,6 +6,7 @@
 
 tasks:
   - init: pip install -r requirements.txt
+    command: npm install -g npm@9.4.0
     command: rfbrowser init
 
 vscode:
