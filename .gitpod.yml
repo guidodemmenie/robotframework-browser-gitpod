@@ -5,8 +5,8 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: pip install -r requirements.txt
-    command: npm install -g npm@9.4.0
+  - init: npm install -g npm@9.4.0
+    command: pip install -r requirements.txt
     command: rfbrowser init
 
 vscode:
