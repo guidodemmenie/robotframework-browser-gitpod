@@ -5,12 +5,12 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: |
-      npm install -g npm@9.4.0
-      gp sync-done npm-installation
+  - init: npm install -g npm@9.4.0
+    command: | 
+      pip install -r requirements.txt
+      gp sync-done rf-installation
 
-  - init: gp sync-await npm-installation
-    command:  pip install -r requirements.txt
+  - init: gp sync-await rf-installation
     command: rfbrowser init
 
 vscode:
