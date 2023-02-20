@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "robotframework-lsp",
+            "name": "Robot Framework: Launch template",
+            "request": "launch",
+            "args": ["-d", "results"]
+
+        }
+    ],
+    "compounds": []
+}
