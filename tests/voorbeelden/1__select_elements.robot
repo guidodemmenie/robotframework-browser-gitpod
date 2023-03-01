@@ -17,4 +17,4 @@ My Test
     # combining selector strategies
     Get Element    css=\#flash-messages >> text=succes
 
-    ${element id1}    Get Element    css=div.flash
+    ${element id}    Get Element    css=div.flash
