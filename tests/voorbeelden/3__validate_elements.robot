@@ -1,6 +1,6 @@
 *** Settings ***
 Library  Browser
-Library    ../../.venv/lib/python3.11/site-packages/robot/libraries/Collections.py
+Library    Collections
 
 *** Test Cases ***
 My Test

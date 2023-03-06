@@ -1,10 +1,10 @@
 *** Settings ***
-Library  Browser
+Library  Browser        #enable_presenter_mode=${TRUE}
 Library  Collections
 
 *** Test Cases ***
 My Test
-    # New Browser    headless=false
+    New Browser    headless=false
     New Page       https://the-internet.herokuapp.com/checkboxes
 
     Check Checkbox    css=form input:first-child
